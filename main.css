@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header h1,
+section h2 {
+    font-weight: normal;
+}
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #fff;
+}
+
+.containers {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo 5 */
+header .containers,
+section .containers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body,
+input,
+textarea{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ESTILO 6 */
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+/* ESTILO 7*/
+
+section {
+    padding: 24px 0;
+    color: #182c61;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+/* ESTILO 8 */
+header {
+    padding: 16px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size:  18px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section .containers {
+    align-items: flex-start;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+#contact .containers{
+    display: block;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+#contact .containers {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li {
+    display: inline;
+    justify-content: space-between;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.contact-methods {
+    display: flex;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3050a9;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: #182c61;
+    color: #fff;
+    padding: 16px 0;
+}
