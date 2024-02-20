@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-image:url("./images/estadio-de-futebol_1284-22432.avif");
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
 header h1,
 section h2 {
     font-weight: normal;
@@ -10,7 +17,7 @@ section h2 {
 header {
     padding: 16px 0;
     background-color: #182c61;
-    color: #fff;
+    color: #060606;
 }
 
 .containers {
@@ -57,7 +64,7 @@ form button {
 
 section {
     padding: 24px 0;
-    color: #182c61;
+    color: #0b0b0b;
 }
 
 section h2 {
@@ -79,7 +86,7 @@ header nav li {
 }
 
 header nav li a {
-    color: #fff;
+    color: #030303;
     text-decoration: none;
 }
 
@@ -87,8 +94,10 @@ section .containers {
     align-items: flex-start;
 }
 
-.store-front {
+.store-front,
+.store-front img {
     margin-right: 32px;
+    height: 400px;
 }
 
 #contact .containers{
